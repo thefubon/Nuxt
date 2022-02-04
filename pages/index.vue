@@ -1,9 +1,11 @@
 <template>
   <div class="flex justify-center items-center p-10">
-    <Button class="bg-blue-700 hover:bg-blue-500 border-0 text-white hover:text-white w-auto h-auto px-10 py-4 text-lg focus:ring-0" @click="modal1 = true">
-      Display dialog box
-      <Icon type="md-cart" size="20" />
-    </Button>
+    <button class="flex items-center space-x-1 rounded bg-blue-700 hover:bg-blue-500 border-0 text-white hover:text-white font-medium w-auto h-auto px-10 py-4 text-lg focus:ring-0" @click="modal1 = true">
+      <span>Display dialog box</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+      </svg>
+    </button>
     <Modal
         v-model="modal1"
         :closable="true"

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center p-10">
+  <div class="flex justify-center items-center py-20 px-4">
     <button class="flex items-center space-x-1 rounded bg-blue-700 hover:bg-blue-500 border-0 text-white hover:text-white font-medium w-auto h-auto px-10 py-4 text-lg focus:ring-0 duration-300" @click="modal1 = true">
       <span>Display dialog box</span>
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

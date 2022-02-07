@@ -1,0 +1,165 @@
+.fade-appear,
+.fade-enter-active {
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.fade-leave-active {
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.fade-appear,
+.fade-enter-active {
+    -webkit-animation-name: ivuFadeIn;
+    animation-name: ivuFadeIn;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+.fade-leave-active {
+    -webkit-animation-name: ivuFadeOut;
+    animation-name: ivuFadeOut;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+.fade-appear,
+.fade-enter-active {
+    opacity: 0;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.fade-leave-active {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes ivuFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes ivuFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes ivuFadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes ivuFadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.ease-appear,
+.ease-enter-active {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.ease-leave-active {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.ease-appear,
+.ease-enter-active {
+    -webkit-animation-name: ivuEaseIn;
+    animation-name: ivuEaseIn;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+.ease-leave-active {
+    -webkit-animation-name: ivuEaseOut;
+    animation-name: ivuEaseOut;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+.ease-appear,
+.ease-enter-active {
+    opacity: 0;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+}
+.ease-leave-active {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+}
+@-webkit-keyframes ivuEaseIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes ivuEaseIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes ivuEaseOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes ivuEaseOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}

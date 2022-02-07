@@ -21,8 +21,10 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'view-design/dist/styles/iview.css',
     '~/assets/css/main.css',
+    // View UI Components
+    '~/assets/css/components/iview.css',
+    '~/assets/css/components/modal.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

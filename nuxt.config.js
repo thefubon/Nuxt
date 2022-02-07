@@ -10,13 +10,16 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    bodyAttrs: {
+      class: 'antialiased'
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -52,5 +55,26 @@ export default {
         autoprefixer: {},
       },
     },
-  }
+    publicPath: 'assets',
+  },
+
+  generate: {
+    dir: 'dist',
+    fallback: '404.html'
+  },
+
+  cli: {
+    badgeMessages: ['Made in Fubon | http://thefubon.com'],
+    bannerColor: 'yellow'
+  },
+
+  loading: {
+    color: '#ffcc00',
+    height: '2px'
+  },
+
+  // transition: {
+  //   name: 'my-layouts',
+  //   mode: 'out-in',
+  // },
 }

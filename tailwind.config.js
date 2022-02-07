@@ -7,6 +7,9 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {},
   },
   plugins: [],

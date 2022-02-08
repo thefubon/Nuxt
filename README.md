@@ -1,4 +1,22 @@
-# nuxt
+# 👍 Landing Starter Kit
+> Nuxt app template project with my customisation.
+
+
+## What is included in the project
+[Nuxt 2](https://nuxtjs.org/)<br>
+[Tailwind CSS](https://tailwindcss.com/)<br>
+[Firebase](https://firebase.google.com/)
+
+## Additional Plugins to consider
+[View UI](https://www.iviewui.com/)<br>
+[Vant - Mobile UI Components](https://vant-contrib.gitee.io/vant/#/en-US/)<br>
+[VueMotion - components in animation](https://motion.vueuse.org/)
+
+## Examples of code and components
+[Nuxt, HTML, CSS - Components](https://heartcode.fuxing.dev/)
+
+## Nuxt Firebase Tutorial
+[Firebase Form Tutorial](https://youtu.be/btQWHig29pA)
 
 ## Build Setup
 
@@ -9,61 +27,65 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
 # generate static project
 $ npm run generate
+
+# build for production and launch server
+$ npm run start
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Meta
 
-## Special Directories
+```bash
+<meta property="og:title" content="Title">
+<meta property="og:type" content="website">
+<meta property="og:url" content="thefubon.com">
+<meta property="og:image" content="https://image.jpg">
+<meta property="og:site_name" content="Site Name">
+<meta property="og:description" content="Description">
+<meta property="og:video" content="https://video.mp4">
+<meta property="og:audio" content="https://audio.mp3">
+<meta property="og:determiner" content="determiner">
+<meta property="og:locale" content="locale">
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## UTM
 
-### `assets`
+```bash
+# Utm Url
+?utm_source=website_com&utm_medium=news&utm_term=name_conference&utm_content=article&utm_campaign=moscow
+```
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## JavaScript UTM
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+```bash
+  // парсим гет-параметры
+  var params = window
+    .location
+    .search
+    .replace('?','')
+    .split('&')
+    .reduce(
+      function(p,e){
+        var a = e.split('=');
+        p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+        return p;
+      },
+      {}
+  );
+  if (params.utm_source) {
+    $('#form-input-utm_source').val(params.utm_source);
+  }
+  if (params.utm_medium) {
+    $('#form-input-utm_medium').val(params.utm_medium);
+  }
+  if (params.utm_term) {
+    $('#form-input-utm_term').val(params.utm_term);
+  }
+  if (params.utm_content) {
+    $('#form-input-utm_content').val(params.utm_content);
+  }
+  if (params.utm_campaign) {
+    $('#form-input-utm_campaign').val(params.utm_campaign);
+  }
+```

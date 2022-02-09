@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center h-screen">
-    <AppModal/>
-  </div>
+  <main>
+    <NuxtLink to="/components">Components</NuxtLink>
+  </main>
 </template>

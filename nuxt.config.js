@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt',
+    title: 'Nuxt / Tailwind CSS / View UI',
     htmlAttrs: {
       lang: 'en'
     },

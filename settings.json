@@ -1,0 +1,86 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "workbench.editor.closeEmptyGroups": false,
+  "sftp.downloadWhenOpenInRemoteExplorer": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.maxTokenizationLineLength": 999999,
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../../web/assets/css/"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../../web/assets/css/"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/vendor/**",
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 10 versions"
+  ],
+  "liveSassCompile.settings.showOutputWindow": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  "files.exclude": {
+    "**/.env": false,
+    "**/.git": false
+  },
+  "editor.hover.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.linkedEditing": true,
+  "editor.renderControlCharacters": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terminal.integrated.tabs.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "json.maxItemsComputed": 50000,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "twig"
+  },
+  "tailwindCSS.experimental.classRegex": [],
+  // "[typescript]": {
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "files.associations": {
+    ".env.sh": "bat"
+  },
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "settingsSync.ignoredSettings": [],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+  "breadcrumbs.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  "vetur.format.defaultFormatter.pug": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+}

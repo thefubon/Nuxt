@@ -1,5 +1,5 @@
 <template>
-  <main>
-    404
+  <main class="container">
+    Page not found
   </main>
 </template>

@@ -2,7 +2,9 @@
   <header class="border-b">
     <nav class="container flex justify-between items-center h-[60px]">
       <div class="">
-        <NuxtLink to="/">Logo</NuxtLink>
+        <NuxtLink to="/">
+          <img class="w-[150px]" src="logo-light.svg" alt="Logo">
+        </NuxtLink>
       </div>
 
       <div class="">

@@ -11,7 +11,7 @@
         Update
       </div>
 
-      <div class="flex justify-end items-center space-x-6 font-semibold">
+      <div class="flex justify-end items-center space-x-6 text-sm font-semibold">
         <NuxtLink to="/docs">Docs</NuxtLink>
         <NuxtLink to="/components">Components</NuxtLink>
         <NuxtLink to="/blog">Blog</NuxtLink>

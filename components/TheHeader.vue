@@ -1,7 +1,19 @@
 <template>
-  <header class="container">
-    <nav class="flex justify-between items-center h-[60px]">
-      NAV
+  <header class="border-b">
+    <nav class="container flex justify-between items-center h-[60px]">
+      <div class="">
+        <NuxtLink to="/">Logo</NuxtLink>
+      </div>
+
+      <div class="">
+        Update
+      </div>
+
+      <div class="flex justify-end items-center space-x-6 font-semibold">
+        <NuxtLink to="/docs">Docs</NuxtLink>
+        <NuxtLink to="/components">Components</NuxtLink>
+        <NuxtLink to="/blog">Blog</NuxtLink>
+      </div>
     </nav>
   </header>
 </template> 

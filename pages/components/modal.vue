@@ -1,5 +1,5 @@
 <template>
-  <main class="">
+  <main class="container">
     <AppModal/>
   </main>
 </template>

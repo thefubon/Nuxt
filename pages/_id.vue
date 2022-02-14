@@ -1,12 +1,10 @@
 <template>
-  <main class="container">
-    <h1>Welcome</h1>
-    <p>This area is the password protected</p>
-
-    ПИЗДА
+  <div class="container">
+    <h1>This is a dynamic page</h1>
+    <p>This area is with the password protected</p>
 
     <a @click="logout()" class="button--pink">Log out</a>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -22,3 +20,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+p + .button--pink {
+  margin-top: 10px;
+}
+</style>

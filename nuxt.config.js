@@ -46,13 +46,57 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/pwa',
     '@nuxt/content',
+    '@nuxtjs/i18n',
+    'nuxt-password-protect',
   ],
+
+  pwa: {
+    icon: false // disables the icon module
+  },
+
+  router: {
+    // middleware: ['password-protect'] // Enable to protect the entire website
+  },
+
+  passwordProtect: {
+    enabled: true,
+    formPath: '/password',
+    password: 'pass',
+    tokenSeed: 101010,
+    queryString: '_pw',
+    cookieName: '_password',
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/public-page']
+  },
 
   content: {
     markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  },
+
+  i18n: {
+    locales: ['en', 'fr', 'es'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome'
+        },
+        fr: {
+          welcome: 'Bienvenue'
+        },
+        es: {
+          welcome: 'Bienvenido'
+        }
       }
     }
   },

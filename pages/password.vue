@@ -46,7 +46,7 @@
         <form>
           <input v-model="methodLoginValue" type="password" placeholder="Your password for the method login approach">
 
-          <a @click="loginUser()" class="button--pink">Login using a method</a>
+          <button @click="loginUser()" class="button--pink">Login using a method</button>
         </form>
       </div>
     </div>
@@ -119,5 +119,8 @@ input + button {
 }
 p + .button--pink {
   margin-top: 10px;
+}
+.button--pink {
+  @apply py-2 px-4 inline-block bg-pink-200 rounded;
 }
 </style>

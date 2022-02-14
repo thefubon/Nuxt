@@ -3,9 +3,7 @@
     <h1>Welcome</h1>
     <p>This area is the password protected</p>
 
-    ПИЗДА
-
-    <a @click="logout()" class="button--pink">Log out</a>
+    <button @click="logout()" class="py-2 px-4 bg-red-300 rounded inline-block">Log out</button>
   </main>
 </template>
 

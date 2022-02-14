@@ -4,7 +4,7 @@
       <nav class="flex items-center justify-between h-16">
         <div class="">
           <NuxtLink to="/">
-            <img class="w-[120px]" src="/fubon.svg" alt="Logo">
+            <img class="w-[120px]" src="/fubon.svg" alt="Fubon Documentation">
           </NuxtLink>
         </div>
 
@@ -13,7 +13,7 @@
         </div>
 
         <div class="flex justify-end items-center space-x-10 text-sm font-semibold">
-          <div class="space-x-6">
+          <div class="space-x-6 hidden md:block">
             <NuxtLink to="/docs">Docs</NuxtLink>
             <NuxtLink to="/components">Components</NuxtLink>
             <NuxtLink to="/blog">Blog</NuxtLink>

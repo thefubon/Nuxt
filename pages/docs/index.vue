@@ -22,7 +22,7 @@
           <div class="lg:sticky lg:top-16 overflow-y-auto h-full lg:h-auto lg:max-h-(screen-16)">
             <nav class="py-4 lg:py-8 lg:pl-8 lg:pr-2">
               <p class="mb-3 lg:mb-2 text-gray-500 uppercase tracking-wider font-bold text-sm lg:text-xs">На этой страницы</p>
-              <scrollactive class="space-y-2 text-sm" active-class="scrollactive" :modifyUrl="false" :offset="45" :duration="800" bezier-easing-value=".5,0,.35,1" tag="ul">
+              <scrollactive class="space-y-2 text-sm" active-class="scrollactive" :modifyUrl="false" :offset="90" :duration="800" bezier-easing-value=".5,0,.35,1" tag="ul">
                 <li v-for="link of page.toc" :key="link.id">
                   <a
                     class="scrollactive-item"

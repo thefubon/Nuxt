@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-4 lg:px-8">
+  <div class="container">
     <h1>This is a dynamic page for user {{ currentUser }}</h1>
     <p>This area is the password protected</p>
 

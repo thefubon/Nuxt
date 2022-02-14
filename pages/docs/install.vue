@@ -45,17 +45,12 @@
 export default {
   layout: "docs",
 
-  async asyncData({ $content, params, error }) {
-    const slug = params.slug || "docs/index";
-    const page = await $content(slug)
-      .fetch()
-      .catch(err => {
-        error({ statusCode: 404, message: "Page not found" });
-      });
+  async asyncData ({ $content }) {
+    const page = await $content('docs/install').fetch()
 
     return {
       page
-    };
+    }
   },
 
   head () {

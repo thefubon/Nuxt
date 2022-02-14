@@ -19,7 +19,7 @@
             <NuxtLink to="/blog">Blog</NuxtLink>
           </div>
           <div>
-            <a class="inline-block py-2 px-4 bg-indigo-700 text-white rounded-full" href="https://thefubon.com" target="_blank">Download</a>
+            <a class="inline-block py-2 px-4 bg-indigo-700 text-white rounded-full" href="https://github.com/thefubon/Nuxt-ViewUI" target="_blank">Download</a>
           </div>
         </div>
       </nav>

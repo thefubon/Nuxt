@@ -25,7 +25,7 @@
               <scrollactive class="space-y-2 text-sm" active-class="scrollactive" :modifyUrl="true" :offset="90" :duration="800" bezier-easing-value=".5,0,.35,1" tag="ul">
                 <li v-for="link of page.toc" :key="link.id">
                   <a
-                    class="scrollactive-item"
+                    class="scrollactive-item hover:pl-1 duration-300"
                     :class="{ 'toc-2': link.depth === 2, 'toc-2': link.depth === 3 }"
                     :href="`#${link.id}`
                   ">{{ link.text }}</a>

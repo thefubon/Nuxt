@@ -65,14 +65,14 @@ export default {
     enabled: true,
     formPath: '/password',
     password: 'pass',
-    tokenSeed: 3343490,
+    tokenSeed: 245246524,
     queryString: '_pw',
     cookieName: '_password',
-    cookie: {
-      prefix: '',
-      expires: 5
-    },
-    ignoredPaths: ['/public-page']
+    // cookie: {
+    //   prefix: '',
+    //   expires: 5
+    // },
+    // ignoredPaths: ['/']
   },
 
   content: {
@@ -84,19 +84,23 @@ export default {
   },
 
   i18n: {
-    locales: ['en', 'ru'],
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js',
+        name: 'English'
+      },
+      {
+        code: 'ru',
+        iso: 'ru-Ru',
+        file: 'ru-RU.js',
+        name: 'Русский'
+      },
+    ],
     defaultLocale: 'ru',
-    vueI18n: {
-      fallbackLocale: 'en',
-      messages: {
-        en: {
-          welcome: 'Welcome'
-        },
-        ru: {
-          welcome: 'добро пожаловать'
-        }
-      }
-    }
+    lazy: true,
+    langDir: 'lang/',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

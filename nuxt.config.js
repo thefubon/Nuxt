@@ -46,18 +46,18 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/pwa',
-    '@nuxt/content',
-    '@nuxtjs/i18n',
-    'nuxt-password-protect',
+    '@nuxtjs/pwa', // https://pwa.nuxtjs.org/
+    '@nuxt/content', // https://content.nuxtjs.org/
+    '@nuxtjs/i18n', // https://i18n.nuxtjs.org/
+    'nuxt-password-protect', // https://github.com/stephenkr/nuxt-password-protect
   ],
 
   pwa: {
-    icon: false // disables the icon module
+    icon: false // отключает модуль иконок
   },
 
   router: {
-    // middleware: ['password-protect'] // Enable to protect the entire website
+    // middleware: ['password-protect'] // Возможность защиты всего веб-сайта
   },
 
   passwordProtect: {
@@ -83,19 +83,16 @@ export default {
   },
 
   i18n: {
-    locales: ['en', 'fr', 'es'],
-    defaultLocale: 'en',
+    locales: ['en', 'ru'],
+    defaultLocale: 'ru',
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
         en: {
           welcome: 'Welcome'
         },
-        fr: {
-          welcome: 'Bienvenue'
-        },
-        es: {
-          welcome: 'Bienvenido'
+        ru: {
+          welcome: 'добро пожаловать'
         }
       }
     }

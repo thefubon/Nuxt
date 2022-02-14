@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container px-4 lg:px-8">
     <div class="top-section">
       <h2>{{ $t('welcome') }}</h2>
 
@@ -7,8 +7,8 @@
         <nuxt-link :to="switchLocalePath('en')">
           English
         </nuxt-link>
-        <nuxt-link :to="switchLocalePath('fr')">
-          Français
+        <nuxt-link :to="switchLocalePath('ru')">
+          Русский
         </nuxt-link>
       </div>
     </div>

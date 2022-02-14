@@ -5,8 +5,10 @@
       <h1>Похоже, вы уже вошли в систему</h1>
       <p>Либо выйдите из системы, либо перейдите в защищенную паролем зону</p>
 
-      <button @click="removeAuthorisation" class="py-2 px-4 inline-block bg-pink-200 rounded">Выйти</button>
-      <button class="py-2 px-4 inline-block bg-blue-200 rounded" href="/login">Перейдите в защищенную паролем область</button>
+      <div class="mt-4">
+        <button @click="removeAuthorisation" class="py-2 px-4 inline-block bg-pink-200 rounded">Выйти</button>
+        <a class="py-2 px-4 inline-block bg-blue-200 rounded" href="/login">Перейдите в защищенную паролем область</a>
+      </div>
     </div>
 
     <div v-else>
@@ -16,7 +18,7 @@
         <input class="rounded h-10" v-model="methodLoginValue" type="password" placeholder="Ваш пароль для входа">
         <button @click="loginUser()" class="h-10 px-4 inline-block bg-indigo-700 text-white rounded">Войти</button>
       </form>
-      
+
     </div>
   </div>
 </template>

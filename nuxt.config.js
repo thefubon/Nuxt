@@ -64,15 +64,15 @@ export default {
   passwordProtect: {
     enabled: true,
     formPath: '/password',
-    password: 'pass',
-    tokenSeed: 245246524,
+    password: 'hello-world',
+    tokenSeed: 101010,
     queryString: '_pw',
     cookieName: '_password',
-    // cookie: {
-    //   prefix: '',
-    //   expires: 5
-    // },
-    // ignoredPaths: ['/']
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/public-page']
   },
 
   content: {

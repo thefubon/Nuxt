@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'Login',
   middleware: ['password-protect'],
   methods: {
     logout() {

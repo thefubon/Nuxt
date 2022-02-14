@@ -32,7 +32,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/view-ui'
+    '~/plugins/view-ui',
+    '~/plugins/vue-scrollactive',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,7 +46,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/content',
   ],
+
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

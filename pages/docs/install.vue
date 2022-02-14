@@ -46,7 +46,7 @@ export default {
   layout: "docs",
 
   async asyncData ({ $content }) {
-    const page = await $content('docs/index').fetch()
+    const page = await $content('docs/install').fetch()
 
     return {
       page

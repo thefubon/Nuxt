@@ -1,6 +1,9 @@
 # 👍 Landing Starter Kit
 > Nuxt app template project with my customisation.
 
+```bash
+class="h-[calc(100vh-61px)]"
+```
 
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>

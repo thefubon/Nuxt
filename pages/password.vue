@@ -12,11 +12,11 @@
     <div v-else>
       <p>Пароль - <strong>pass</strong>.</p>
 
-      <form class="mt-4" :action="redirectPath" method="GET">
-        <input class="rounded h-10" type="password" name="_pw" placeholder="Ваш пароль для входа">
-        <button class="h-10 px-4 inline-block bg-indigo-700 text-white rounded" type="submit">Войти</button>
+      <form class="mt-4">
+        <input class="rounded h-10" v-model="methodLoginValue" type="password" placeholder="Ваш пароль для входа">
+        <button @click="loginUser()" class="h-10 px-4 inline-block bg-indigo-700 text-white rounded">Войти</button>
       </form>
-
+      
     </div>
   </div>
 </template>

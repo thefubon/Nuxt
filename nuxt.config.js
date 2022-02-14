@@ -34,6 +34,7 @@ export default {
   plugins: [
     '~/plugins/view-ui',
     '~/plugins/vue-scrollactive',
+    '~/plugins/password-protect',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -64,7 +65,7 @@ export default {
     enabled: true,
     formPath: '/password',
     password: 'pass',
-    tokenSeed: 101010,
+    tokenSeed: 3343490,
     queryString: '_pw',
     cookieName: '_password',
     cookie: {

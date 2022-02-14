@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="container px-4 lg:px-8">
     <h1>Welcome</h1>
     <p>This area is the password protected</p>
 

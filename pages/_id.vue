@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container px-4 lg:px-8">
     <h1>This is a dynamic page</h1>
     <p>This area is with the password protected</p>
 

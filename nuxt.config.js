@@ -24,16 +24,17 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/main.css',
+    '~/assets/css/main.css', // ailwind CSS, main
     // View UI Components
-    '~/assets/css/components/iview.css',
+    '~/assets/css/components/iview.css', // fade, move, ease, slide
     '~/assets/css/components/modal.css',
+    '~/assets/css/components/drawer.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/view-ui',
-    '~/plugins/vue-scrollactive',
+    '~/plugins/view-ui', // https://iviewui.com/docs/introduce-en
+    '~/plugins/vue-scrollactive', // https://github.com/eddiemf/vue-scrollactive
     '~/plugins/password-protect',
   ],
 
@@ -77,6 +78,7 @@ export default {
 
   content: {
     markdown: {
+      // https://content.nuxtjs.org/ru/configuration/#markdownprismtheme
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }

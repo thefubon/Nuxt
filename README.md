@@ -1,8 +1,13 @@
 # 👍 Landing Starter Kit
 > Nuxt app template project with my customisation.
 
+### Save Code
 ```bash
 class="h-[calc(100vh-61px)]"
+```
+
+```bash
+@click.native="value1 = false"
 ```
 
 ## What is included in the project

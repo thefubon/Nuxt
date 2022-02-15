@@ -58,6 +58,7 @@ export default {
     'nuxt-password-protect', // https://github.com/stephenkr/nuxt-password-protect
   ],
 
+  // Автоматически добавляет файл manifest.json с иконками и описанием для иконок в соц.сети
   pwa: {
     manifest: {
       theme_color: "#fafafa",

@@ -18,7 +18,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     bodyAttrs: {
-      class: 'antialiased'
+      class: 'antialiased text-slate-900 dark:text-slate-400 bg-white dark:bg-slate-900'
     },
     script: [
       { src: '/js/dark-top.js', body: false },
@@ -73,11 +73,11 @@ export default {
     tokenSeed: 101010,
     queryString: '_pw',
     cookieName: '_password',
-    // cookie: {
-    //   prefix: '',
-    //   expires: 5
-    // },
-    // ignoredPaths: ['/public-page']
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/public-page']
   },
 
   content: {

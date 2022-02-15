@@ -1,9 +1,12 @@
 <template>
-  <header class="fixed top-0 z-40 w-full border-b bg-white shadow border-transparent">
+  <header class="fixed top-0 z-40 w-full border-b bg-white shadow border-transparent backdrop-blur transition-colors duration-500 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75">
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <nav class="flex items-center justify-between h-16">
         <div>
-          <NuxtLink to="/"> <img class="w-[120px]" src="/fubon.svg" alt="Fubon Documentation"></NuxtLink>
+          <NuxtLink to="/">
+            <img class="w-[120px] hidden dark:block" src="/fubon-w.svg" alt="Fubon Documentation">
+            <img class="w-[120px] dark:hidden" src="/fubon-b.svg" alt="Fubon Documentation">
+          </NuxtLink>
         </div>
 
         <div class="flex justify-end items-center space-x-6 text-sm font-semibold">

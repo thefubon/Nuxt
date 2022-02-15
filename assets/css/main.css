@@ -12,3 +12,7 @@
 .scrollactive {
   @apply text-indigo-700 font-semibold;
 }
+
+.cls-1{
+  @apply bg-white;
+}

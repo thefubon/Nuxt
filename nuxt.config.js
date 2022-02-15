@@ -20,6 +20,10 @@ export default {
     bodyAttrs: {
       class: 'antialiased'
     },
+    script: [
+      { src: '/js/dark-top.js', body: false },
+      { src: '/js/dark-bottom.js', body: true },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed top-0 z-40 w-full border-b bg-white shadow border-transparent backdrop-blur transition-colors duration-500 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] supports-backdrop-blur:bg-white/95 dark:bg-slate-900/75">
+  <header class="fixed top-0 z-40 w-full border-b dark:text-slate-400 bg-white shadow border-transparent backdrop-blur transition-colors duration-500 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] dark:bg-slate-900">
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <nav class="flex items-center justify-between h-16">
         <div>

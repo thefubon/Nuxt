@@ -18,7 +18,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     bodyAttrs: {
-      class: 'antialiased text-slate-900 dark:text-slate-400 bg-white dark:bg-slate-900'
+      class: 'antialiased text-slate-900'
     },
     script: [
       { src: '/js/dark-top.js', body: false },

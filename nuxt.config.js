@@ -59,7 +59,13 @@ export default {
   ],
 
   pwa: {
-    icon: false // отключает модуль иконок
+    manifest: {
+      theme_color: "#fafafa",
+      name: "Template No 1",
+    },
+    icon: {
+      fileName: "icon.png",
+    },
   },
 
   router: {

@@ -10,5 +10,5 @@
 }
 
 .scrollactive {
-  @apply text-indigo-700;
+  @apply text-indigo-700 font-semibold;
 }

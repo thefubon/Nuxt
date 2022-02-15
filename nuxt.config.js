@@ -73,11 +73,11 @@ export default {
     tokenSeed: 101010,
     queryString: '_pw',
     cookieName: '_password',
-    cookie: {
-      prefix: '',
-      expires: 5
-    },
-    ignoredPaths: ['/public-page']
+    // cookie: {
+    //   prefix: '',
+    //   expires: 5
+    // },
+    // ignoredPaths: ['/public-page']
   },
 
   content: {

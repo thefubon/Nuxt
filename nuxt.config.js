@@ -31,17 +31,11 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/css/main.css', // ailwind CSS, main
-    // View UI Components
-    '~/assets/css/components/iview.css', // fade, move, ease, slide
-    '~/assets/css/components/modal.css',
-    '~/assets/css/components/drawer.css',
-    '~/assets/css/components/select.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~plugins/tw-elements.js', mode: 'client' }, // https://tailwind-elements.com/quick-start/
-    '~/plugins/view-ui', // https://iviewui.com/docs/introduce-en
     '~/plugins/vue-scrollactive', // https://github.com/eddiemf/vue-scrollactive
     '~/plugins/password-protect',
   ],

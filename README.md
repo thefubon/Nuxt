@@ -13,6 +13,7 @@ class="h-[calc(100vh-61px)]"
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>
+[Tailwind Elements](https://tailwind-elements.com/quick-start/)<br>
 [Firebase](https://firebase.google.com/)
 
 ## Additional Plugins to consider

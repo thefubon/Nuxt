@@ -30,7 +30,7 @@
       aria-label="Slide 3"
     ></button>
   </div>
-  <div class="carousel-inner relative w-full overflow-hidden">
+  <div class="carousel-inner relative w-full overflow-hidden rounded-lg">
     <div class="carousel-item active relative float-left w-full">
       <video class="w-full" autoplay loop muted>
         <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />

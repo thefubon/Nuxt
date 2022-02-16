@@ -12,7 +12,7 @@
         <div class="flex justify-end items-center space-x-6 text-sm font-semibold">
           <div class="hidden md:flex items-center space-x-6">
             <NuxtLink active-class="navbar-active" to="/docs">Docs</NuxtLink>
-            <NuxtLink active-class="navbar-active" to="/login">Login</NuxtLink>
+            <a class="active-login" href="/login">Login</a>
           </div>
 
           <div>
@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
   .navbar-active {
-    @apply text-indigo-700;
+    @apply text-indigo-700 dark:text-slate-300;
   }
   .system {
     @apply text-slate-500;

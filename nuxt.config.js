@@ -102,7 +102,7 @@ export default {
     markdown: {
       // https://content.nuxtjs.org/ru/configuration/#markdownprismtheme
       prism: {
-        //theme: 'prism-themes/themes/prism-material-oceanic.css'
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
   },

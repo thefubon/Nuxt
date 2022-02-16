@@ -95,7 +95,6 @@ export default {
   .navbar-active {
     @apply text-indigo-700;
   }
-
   .system {
     @apply text-slate-500;
   }

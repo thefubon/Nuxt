@@ -2,13 +2,8 @@
   <div class="container px-4 lg:px-8 py-10">
     <h1 class="text-2xl font-bold mb-10">Welcome</h1>
 
-    <Select v-bind="$colorMode.preference">
-        <Option v-for="item in darkModeList" :value="item.value" :key="item.value"><img class="inline-block mr-2" :src="item.icon" />{{ item.label }}</Option>
-    </Select>
-    
-
     <div class="my-10">
-      <h2 class="text-2xl font-bold">Click Color Theme</h2>
+      <h2 class="text-lg font-bold">Click Color Theme</h2>
 
       <button class="button is-info is-block" @click="toggleDarkMode()">
         <ColorScheme placeholder="..." tag="span">
@@ -36,28 +31,6 @@ export default {
   components: {
     IconLight,
     IconDark,
-  },
-
-  data () {
-    return {
-      darkModeList: [
-        {
-          value: 'system',
-          label: 'System',
-          icon: require('/assets/icons/system.svg')
-        },
-        {
-          value: 'light',
-          label: 'Light',
-          icon: require('/assets/icons/light.svg')
-        },
-        {
-          value: 'dark',
-          label: 'Dark',
-          icon: require('/assets/icons/dark.svg')
-        }
-      ]
-    }
   },
 
   methods: {

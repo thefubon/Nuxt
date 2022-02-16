@@ -10,10 +10,32 @@ class="h-[calc(100vh-61px)]"
 @click.native="value1 = false"
 ```
 
-```js
+```bash
 <Select v-bind="$colorMode.preference">
   <Option v-for="item in darkModeList" :value="item.value" :key="item.value"><img class="inline-block mr-2" :src="item.icon" />{{ item.label }}</Option>
 </Select>
+
+data () {
+  return {
+    darkModeList: [
+      {
+        value: 'system',
+        label: 'System',
+        icon: require('/assets/icons/system.svg')
+      },
+      {
+        value: 'light',
+        label: 'Light',
+        icon: require('/assets/icons/light.svg')
+      },
+      {
+        value: 'dark',
+        label: 'Dark',
+        icon: require('/assets/icons/dark.svg')
+      }
+    ]
+  }
+},
 ```
 
 ## What is included in the project

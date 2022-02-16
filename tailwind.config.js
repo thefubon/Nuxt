@@ -7,6 +7,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
+    './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     container: {
@@ -19,5 +20,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('tailwindcss-dark-mode')(),
+    require('tw-elements/dist/plugin')
   ],
 }

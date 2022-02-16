@@ -21,7 +21,10 @@ export default {
       class: 'antialiased text-slate-900'
     },
     script: [
-      // { src: '/', body: false },
+      // { src: '/head.js' },
+      // Supported since 1.0
+      // { src: '/body.js', body: true },
+      // { src: '/defer.js', defer: '' }
     ],
   },
 
@@ -37,6 +40,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~plugins/tw-elements.js', mode: 'client' }, // https://tailwind-elements.com/quick-start/
     '~/plugins/view-ui', // https://iviewui.com/docs/introduce-en
     '~/plugins/vue-scrollactive', // https://github.com/eddiemf/vue-scrollactive
     '~/plugins/password-protect',

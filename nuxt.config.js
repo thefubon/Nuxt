@@ -50,6 +50,7 @@ export default {
     '@nuxtjs/color-mode',
   ],
 
+  // https://color-mode.nuxtjs.org/
   colorMode: {
     classSuffix: ''
   },

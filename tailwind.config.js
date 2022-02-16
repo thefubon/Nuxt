@@ -13,6 +13,7 @@ module.exports = {
       center: true,
     },
     extend: {},
+    darkSelector: '.dark-mode',
   },
   plugins: [
     require('@tailwindcss/typography'),

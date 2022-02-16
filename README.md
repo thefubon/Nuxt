@@ -10,6 +10,12 @@ class="h-[calc(100vh-61px)]"
 @click.native="value1 = false"
 ```
 
+```js
+<Select v-bind="$colorMode.preference">
+  <Option v-for="item in darkModeList" :value="item.value" :key="item.value"><img class="inline-block mr-2" :src="item.icon" />{{ item.label }}</Option>
+</Select>
+```
+
 ## What is included in the project
 [Nuxt 2](https://nuxtjs.org/)<br>
 [Tailwind CSS](https://tailwindcss.com/)<br>

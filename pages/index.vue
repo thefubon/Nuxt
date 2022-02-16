@@ -1,11 +1,6 @@
 <template>
-  <div class="container px-4 lg:px-8 py-10 sepia:bg-gray-500">
+  <div class="container px-4 lg:px-8 py-10">
     <h1 class="text-2xl font-bold mb-10">Welcome</h1>
-
-    <Select v-model="$colorMode.preference">
-        <Option v-for="item in darkModeList" :value="item.value" :key="item.value"><img class="inline-block mr-2" :src="item.icon" />{{ item.label }}</Option>
-    </Select>
-
 
     <div class="my-10">
       <h2 class="text-2xl font-bold">Click Color Theme</h2>
@@ -33,7 +28,7 @@ export default {
   //colorMode: 'light',
   components: {
     IconLight,
-    IconDark
+    IconDark,
   },
 
   data () {
@@ -53,8 +48,13 @@ export default {
           value: 'dark',
           label: 'Dark',
           icon: require('/assets/img/moon-stars.svg')
+        },
+        {
+          value: 'sepia',
+          label: 'Sepia',
+          icon: require('/assets/img/moon-stars.svg')
         }
-      ],
+      ]
     }
   },
 
@@ -70,4 +70,3 @@ export default {
 
 }
 </script>
-

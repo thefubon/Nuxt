@@ -1,15 +1,15 @@
-.ivu-select.ivu-select-single.ivu-select-default {
-  @apply border;
-}
-
-.ivu-select-selection {
- @apply border border-red-400
-}
-
 .ivu-select-selected-value {
-  @apply border border-blue-400;
+  @apply border border-blue-400 p-2 rounded cursor-pointer;
 }
 
-.ivu-select-dropdown {
-  @apply border border-green-500
+.ivu-select-dropdown-list {
+  @apply border bg-white w-[200px];
+}
+
+.ivu-select-item {
+  @apply cursor-pointer;
+}
+
+.ivu-select-item-selected {
+  @apply text-indigo-700;
 }

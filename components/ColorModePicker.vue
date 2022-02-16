@@ -15,14 +15,12 @@
 </template>
 
 <script>
-import ColorModePicker from '@/components/ColorModePicker'
 import IconSystem from '@/assets/icons/system.svg?inline'
 import IconLight from '@/assets/icons/light.svg?inline'
 import IconDark from '@/assets/icons/dark.svg?inline'
 
 export default {
   components: {
-    ColorModePicker,
     IconSystem,
     IconLight,
     IconDark

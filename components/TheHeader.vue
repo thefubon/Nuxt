@@ -30,8 +30,15 @@
               <option value="system">System</option>
               <option value="light">Light</option>
               <option value="dark">Dark</option>
-              <option value="sepia">Sepia</option>
             </select>
+          </div>
+
+          <div>
+            <ColorScheme placeholder="..." tag="span">
+              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'system'"><IconSystem class="w-6 h-6" /></span>
+              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'light'"><IconLight class="w-6 h-6" /></span>
+              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'dark'"><IconDark class="w-6 h-6" /></span>
+            </ColorScheme>
           </div>
 
           <div>
@@ -65,17 +72,37 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        value1: false
-      }
+import IconSystem from '@/assets/icons/system.svg?inline'
+import IconLight from '@/assets/icons/light.svg?inline'
+import IconDark from '@/assets/icons/dark.svg?inline'
+
+export default {
+  components: {
+    IconSystem,
+    IconLight,
+    IconDark
+  },
+
+  data () {
+    return {
+      value1: false
     }
   }
+}
 </script>
 
 <style scoped>
   .navbar-active {
     @apply text-indigo-700;
+  }
+
+  .system {
+    @apply text-slate-500;
+  }
+  .light {
+    @apply text-yellow-600;
+  }
+  .dark {
+    @apply text-slate-300;
   }
 </style>

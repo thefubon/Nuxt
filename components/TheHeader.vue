@@ -18,7 +18,7 @@
           <div>
             <select
               v-model="$colorMode.preference"
-              class="border w-24 h-10 dark:bg-gray-900 dark:text-white dark:border-gray-700"
+              class="border dark:bg-gray-900 dark:text-white dark:border-gray-700 rounded-full"
             >
               <option value="system">System</option>
               <option value="light">Light</option>

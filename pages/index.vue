@@ -17,7 +17,7 @@
       </button>
     </div>
 
-    <AppModal />
+    <AppCarousel />
 
   </div>
 </template>

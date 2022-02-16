@@ -19,20 +19,18 @@ import ColorModePicker from '@/components/ColorModePicker'
 import IconSystem from '@/assets/icons/system.svg?inline'
 import IconLight from '@/assets/icons/light.svg?inline'
 import IconDark from '@/assets/icons/dark.svg?inline'
-import IconSepia from '@/assets/icons/sepia.svg?inline'
 
 export default {
   components: {
     ColorModePicker,
     IconSystem,
     IconLight,
-    IconDark,
-    IconSepia
+    IconDark
   },
 
   data () {
     return {
-      colors: ['system', 'light', 'dark', 'sepia']
+      colors: ['system', 'light', 'dark']
     }
   },
   methods: {

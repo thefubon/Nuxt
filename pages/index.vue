@@ -53,16 +53,8 @@ export default {
           value: 'dark',
           label: 'Dark',
           icon: require('/assets/img/moon-stars.svg')
-        },
-        {
-          value: 'sepia',
-          label: 'Sepia',
-          icon: require('/assets/img/moon-stars.svg')
         }
       ],
-
-      colors: ['system', 'light', 'dark', 'sepia'],
-
     }
   },
 

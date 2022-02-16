@@ -1,0 +1,15 @@
+.ivu-select.ivu-select-single.ivu-select-default {
+  @apply border;
+}
+
+.ivu-select-selection {
+ @apply border border-red-400
+}
+
+.ivu-select-selected-value {
+  @apply border border-blue-400;
+}
+
+.ivu-select-dropdown {
+  @apply border border-green-500
+}

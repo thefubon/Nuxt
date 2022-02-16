@@ -32,6 +32,7 @@ export default {
     '~/assets/css/components/iview.css', // fade, move, ease, slide
     '~/assets/css/components/modal.css',
     '~/assets/css/components/drawer.css',
+    '~/assets/css/components/select.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -47,10 +48,10 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
-    '@nuxtjs/color-mode',
+    '@nuxtjs/svg', // https://github.com/nuxt-community/svg-module
+    '@nuxtjs/color-mode', // https://color-mode.nuxtjs.org/
   ],
 
-  // https://color-mode.nuxtjs.org/
   colorMode: {
     classSuffix: ''
   },
@@ -85,11 +86,11 @@ export default {
     tokenSeed: 101010,
     queryString: '_pw',
     cookieName: '_password',
-    cookie: {
-      prefix: '',
-      expires: 5
-    },
-    ignoredPaths: ['/public-page']
+    // cookie: {
+    //   prefix: '',
+    //   expires: 5
+    // },
+    // ignoredPaths: ['/public-page']
   },
 
   content: {

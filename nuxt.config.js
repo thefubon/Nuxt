@@ -21,8 +21,7 @@ export default {
       class: 'antialiased text-slate-900'
     },
     script: [
-      { src: '/js/dark-top.js', body: false },
-      { src: '/js/dark-bottom.js', body: true },
+      // { src: '/', body: false },
     ],
   },
 
@@ -48,7 +47,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxt/postcss8',
+    '@nuxtjs/color-mode',
   ],
+
+  colorMode: {
+    classSuffix: ''
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

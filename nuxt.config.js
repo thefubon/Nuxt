@@ -75,7 +75,7 @@ export default {
   pwa: {
     manifest: {
       theme_color: "#fafafa",
-      name: "Nuxt",
+      name: "Nuxt JS",
     },
     icon: {
       fileName: "icon.png",

@@ -16,7 +16,7 @@
         <p>Пароль - <strong>pass</strong>.</p>
 
         <form class="mt-4">
-          <input class="rounded h-10" v-model="methodLoginValue" type="password" placeholder="Ваш пароль для входа">
+          <input class="rounded h-10" v-model="methodLoginValue" type="password" placeholder="Укажите пароль">
           <button @click="loginUser()" class="h-10 px-4 inline-block bg-indigo-700 text-white rounded">Войти</button>
         </form>
 
@@ -40,7 +40,7 @@ export default {
   computed: {
     redirectPath() {
       const path = this.$route.query.previousPath
-      return path || this.localePath('/')
+      return path || this.localePath('/login')
     }
   },
   mounted() {

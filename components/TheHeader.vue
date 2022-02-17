@@ -18,7 +18,7 @@
           <AppDropdown />
 
           <div>
-            <a class="inline-block py-2 px-4 bg-[#00DC82] hover:bg-[#4DE7A8] text-gray-800 rounded" href="https://github.com/thefubon/Nuxt-ViewUI" target="_blank">Download</a>
+            <a class="inline-block py-2 px-4 bg-[#00DC82] hover:bg-[#4DE7A8] text-gray-800 rounded" href="https://landing-starterkit.thefubon.dev/" target="_blank">Download</a>
           </div>
         </div>
       </nav>

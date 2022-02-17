@@ -13,8 +13,7 @@ Tailwind Elements (500+ UI components)<br>
 Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode<br>
 Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa<br>
 Адатация .svg изображений - @nuxtjs/svg<br>
-Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms<br>
-P.S. — Cобираем иедальные и нужные настройки nuxt.config.js
+Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms
 
 ### Save Code
 ```bash

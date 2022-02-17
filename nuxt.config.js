@@ -76,7 +76,7 @@ export default {
       name: "Design Code",
     },
     icon: {
-      fileName: "colored-logo.svg",
+      fileName: "icon.png",
     },
   },
 

@@ -15,24 +15,7 @@
             <a class="active-login" href="/login">Login</a>
           </div>
 
-          <div>
-            <select
-              v-model="$colorMode.preference"
-              class="border dark:bg-gray-900 dark:text-white dark:border-gray-700 rounded-full"
-            >
-              <option value="system">System</option>
-              <option value="light">Light</option>
-              <option value="dark">Dark</option>
-            </select>
-          </div>
-
-          <div>
-            <ColorScheme placeholder="..." tag="span">
-              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'system'"><IconSystem class="w-6 h-6" /></span>
-              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'light'"><IconLight class="w-6 h-6" /></span>
-              <span :class="$colorMode.preference" v-if="$colorMode.preference === 'dark'"><IconDark class="w-6 h-6" /></span>
-            </ColorScheme>
-          </div>
+          <AppDropdown />
 
           <div>
             <a class="inline-block py-2 px-4 bg-indigo-700 text-white rounded-full" href="https://github.com/thefubon/Nuxt-ViewUI" target="_blank">Download</a>
@@ -44,31 +27,8 @@
   </header>
 </template>
 
-<script>
-import IconSystem from '@/assets/icons/system.svg?inline'
-import IconLight from '@/assets/icons/light.svg?inline'
-import IconDark from '@/assets/icons/dark.svg?inline'
-
-export default {
-  components: {
-    IconSystem,
-    IconLight,
-    IconDark
-  },
-}
-</script>
-
 <style scoped>
   .navbar-active {
     @apply text-indigo-700 dark:text-slate-300;
-  }
-  .system {
-    @apply text-slate-500;
-  }
-  .light {
-    @apply text-yellow-600;
-  }
-  .dark {
-    @apply text-slate-300;
   }
 </style>

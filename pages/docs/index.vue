@@ -12,9 +12,9 @@
 
       <div class="flex flex-wrap-reverse w-full lg:w-4/5">
         <div class="w-full py-4 lg:pt-8 lg:pb-4 lg:w-3/4 lg:border-l lg:border-r">
-          <article class="prose max-w-none lg:px-8">
+          <article class="lg:px-8">
             <h1 class="flex items-center justify-between">{{ page.title }}</h1>
-            <NuxtContent :document="page" />
+            <NuxtContent class="prose prose-slate dark:prose-dark" :document="page" />
           </article>
         </div>
 

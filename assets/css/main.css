@@ -10,7 +10,7 @@
 }
 
 .scrollactive {
-  @apply text-indigo-700 font-semibold;
+  @apply text-[#00DC82] font-semibold;
 }
 
 :root {

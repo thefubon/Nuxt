@@ -7,13 +7,13 @@
       <p>Tailwind CSS v3</p>
       <p>Tailwind Elements (500+ UI components)</p>
       <p>Многоязычность - @nuxtjs/i18n</p>
-      <p>Edit page - @nuxt/content / @tailwindcss/typography</p>
+      <p>Редактирование контента - @nuxt/content / @tailwindcss/typography</p>
       <p>Страницы с паролем - Password Protect</p>
       <p>Адаптивные изображение - @nuxt/image</p>
       <p>Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode</p>
       <p>Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa</p>
       <p>Адатация .svg изображений - @nuxtjs/svg</p>
-      <p>Форма фрегистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
+      <p>Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
     </div>
 
     <div class="mt-10">

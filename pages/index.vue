@@ -16,10 +16,6 @@
       <p>Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
     </div>
 
-    <div class="mt-10">
-      P.S. — Cобираем иедальные и нужные настройки nuxt.config.js
-    </div>
-
     <img src="/test.png" alt="" width="1000">
   </div>
 </template>

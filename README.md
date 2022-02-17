@@ -1,4 +1,4 @@
-# 👍 NuxtJS 2 / Tailwind CSS / Tailwind Elements
+# 👍 NuxtJS 2 / Tailwind CSS / Firebase
 > Nuxt app template project with my customisation.
 
 ## Собираем идеальный стартовый Landing Page.

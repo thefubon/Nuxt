@@ -4,15 +4,15 @@
 
     <div class="space-y-4">
       <p>Nuxt JS v2</p>
-      <p>Nuxt Tailwind CSS v3</p>
+      <p>Tailwind CSS v3</p>
       <p>Tailwind Elements (500+ UI components)</p>
-      <p>Language @nuxtjs/i18n</p>
+      <p>Многоязычность - @nuxtjs/i18n</p>
       <p>Edit page - @nuxt/content / @tailwindcss/typography</p>
       <p>Страницы с паролем - Password Protect</p>
       <p>Адаптивные изображение - @nuxt/image</p>
       <p>Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode</p>
-      <p>Автоматическая создание иконок для соц.сетей @nuxtjs/pwa</p>
-      <p>Адатация .svg изображений @nuxtjs/svg</p>
+      <p>Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa</p>
+      <p>Адатация .svg изображений - @nuxtjs/svg</p>
       <p>Форма фрегистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
     </div>
 

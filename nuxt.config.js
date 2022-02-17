@@ -73,7 +73,7 @@ export default {
   pwa: {
     manifest: {
       theme_color: "#fafafa",
-      name: "DesignCode",
+      name: "Design Code",
     },
     icon: {
       fileName: "icon.png",

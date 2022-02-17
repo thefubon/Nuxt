@@ -1,5 +1,20 @@
-# 👍 Landing Starter Kit
+# 👍 NuxtJS 2 / Tailwind CSS / Tailwind Elements
 > Nuxt app template project with my customisation.
+
+## Собираем идеальный стартовый Landing Page.
+
+Nuxt JS v2<br>
+Tailwind CSS v3<br>
+Tailwind Elements (500+ UI components)<br>
+Многоязычность - @nuxtjs/i18n<br>
+Редактирование контента - @nuxt/content / @tailwindcss/typography<br>
+Страницы с паролем - Password Protect<br>
+Адаптивные изображение - @nuxt/image<br>
+Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode<br>
+Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa<br>
+Адатация .svg изображений - @nuxtjs/svg<br>
+Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms<br>
+P.S. — Cобираем иедальные и нужные настройки nuxt.config.js
 
 ### Save Code
 ```bash

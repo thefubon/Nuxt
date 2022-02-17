@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Nuxt JS',
+    titleTemplate: 'Nuxt - %s',
     htmlAttrs: {
       lang: 'en'
     },
@@ -73,7 +73,7 @@ export default {
   pwa: {
     manifest: {
       theme_color: "#fafafa",
-      name: "Nuxt JS",
+      name: "DesignCode",
     },
     icon: {
       fileName: "icon.png",

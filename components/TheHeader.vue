@@ -1,11 +1,11 @@
 <template>
-  <header class="fixed top-0 z-40 w-full border-b dark:text-slate-400 bg-white shadow border-transparent backdrop-blur transition-colors duration-500 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] dark:bg-slate-900">
+  <header class="fixed top-0 z-40 w-full border-b dark:text-slate-400 bg-white shadow border-transparent backdrop-blur transition-colors duration-500 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] dark:bg-[#002E3B]">
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <nav class="flex items-center justify-between h-16">
         <div>
           <NuxtLink to="/">
-            <img class="w-[120px] hidden dark:block" src="/fubon-w.svg" alt="Fubon Documentation">
-            <img class="w-[120px] dark:hidden" src="/fubon-b.svg" alt="Fubon Documentation">
+            <img class="w-[120px] hidden dark:block" src="/colored-white-text.svg" alt="Fubon Documentation">
+            <img class="w-[120px] dark:hidden" src="/colored-text.svg" alt="Fubon Documentation">
           </NuxtLink>
         </div>
 
@@ -18,7 +18,7 @@
           <AppDropdown />
 
           <div>
-            <a class="inline-block py-2 px-4 bg-indigo-700 text-white rounded-full" href="https://github.com/thefubon/Nuxt-ViewUI" target="_blank">Download</a>
+            <a class="inline-block py-2 px-4 bg-[#00DC82] hover:bg-[#4DE7A8] text-gray-800 rounded" href="https://github.com/thefubon/Nuxt-ViewUI" target="_blank">Download</a>
           </div>
         </div>
       </nav>
@@ -29,6 +29,6 @@
 
 <style scoped>
   .navbar-active {
-    @apply text-indigo-700 dark:text-slate-300;
+    @apply text-[#00DC82];
   }
 </style>

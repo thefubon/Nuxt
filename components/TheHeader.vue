@@ -11,7 +11,7 @@
 
         <div class="flex justify-end items-center space-x-6 text-sm font-semibold">
           <div class="hidden md:flex items-center space-x-6">
-            <NuxtLink active-class="navbar-active" to="/docs">Docs</NuxtLink>
+            <NuxtLink active-class="navbar-active" v-for="item in navbarLink" :to="item.link" :key="item.id">{{ item.label }}</NuxtLink>
             <a class="active-login" href="/login">Login</a>
           </div>
 
@@ -26,6 +26,22 @@
 
   </header>
 </template>
+
+<script>
+export default {
+data () {
+  return {
+    navbarLink: [
+      {
+        id: '1',
+        label: 'Docs',
+        link: '/docs'
+      },
+    ]
+  }
+},
+}
+</script>
 
 <style scoped>
   .navbar-active {

@@ -15,7 +15,6 @@
       <p>Адатация .svg изображений - @nuxtjs/svg</p>
       <p>Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
     </div>
-
-    <img src="/test.png" alt="" width="1000">
+    
   </div>
 </template>

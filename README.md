@@ -25,6 +25,10 @@ class="h-[calc(100vh-61px)]"
 ```
 
 ```bash
+this.$i18n.locale,
+```
+
+```bash
 <Select v-bind="$colorMode.preference">
   <Option v-for="item in darkModeList" :value="item.value" :key="item.value"><img class="inline-block mr-2" :src="item.icon" />{{ item.label }}</Option>
 </Select>

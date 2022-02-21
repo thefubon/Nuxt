@@ -14,7 +14,7 @@ Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode<br>
 Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa<br>
 Адатация .svg изображений - @nuxtjs/svg<br>
 Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms<br>
-Anime.js - nuxt-animejs
+Anime.js - nuxt-animejs [link](https://github.com/ivodolenc/nuxt-animejs)
 
 ### Save Code
 ```bash

@@ -14,6 +14,7 @@
       <p>Автоматическая создание иконок для соц.сетей - @nuxtjs/pwa</p>
       <p>Адатация .svg изображений - @nuxtjs/svg</p>
       <p>Форма регистрации c API - @nuxtjs/firebase / @tailwindcss/forms</p>
+      <p>Anime.js - nuxt-animejs</p>
     </div>
     
   </div>

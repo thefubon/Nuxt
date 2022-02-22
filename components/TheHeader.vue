@@ -3,7 +3,7 @@
     <div class="container mx-auto flex-1 px-4 lg:px-8">
       <nav class="flex items-center justify-between h-16">
         <div>
-          <NuxtLink to="/">
+          <NuxtLink :to="localePath('/')">
             <img class="w-[120px] hidden dark:block" src="/colored-white-text.svg" alt="Fubon Documentation">
             <img class="w-[120px] dark:hidden" src="/colored-text.svg" alt="Fubon Documentation">
           </NuxtLink>
@@ -15,7 +15,9 @@
             <a class="active-login" href="/login">Login</a>
           </div>
 
-          <AppDropdown />
+          <AppDarkMode />
+
+          <AppLangSwitcher />
 
           <div>
             <a class="inline-block py-2 px-4 bg-[#00DC82] hover:bg-[#4DE7A8] text-gray-800 rounded" href="https://landing-starterkit.thefubon.dev/" target="_blank">Download</a>

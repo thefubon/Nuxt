@@ -27,10 +27,10 @@ export default {
     date: new Date(),
   }),
   filters: {
-    formatDate1: d => d.toLocaleString(['ru-RU'], {month: 'short', day: '2-digit', year: 'numeric'}).replace(',', '').slice(0, -3),
+    formatDate1: d => d.toLocaleString(['ru-RU'], {month: 'short', day: '2-digit', year: 'numeric'}),
   },
   methods: {
-    formatDate2: d => d.toLocaleString(['ru-RU'], {month: 'short', day: '2-digit', year: 'numeric'}).replace(',', '').slice(0, -3),
+    formatDate2: d => d.toLocaleString('ru-RU').replace(',', '').slice(0, -3),
   },
 }
 </script>

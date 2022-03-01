@@ -17,10 +17,10 @@ Dark Mode - @nuxtjs/color-mode / tailwindcss-dark-mode<br>
 Anime.js - nuxt-animejs [Example](https://github.com/ivodolenc/nuxt-animejs)
 
 ### Save Code
+```bash
 <div class="fullDate">{{ date | formatDate1 }}</div>
 <div class="fullDate">{{ formatDate2(date) }}</div>
 
-```bash
 <script>
 export default {
   data: () => ({
